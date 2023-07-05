@@ -1,65 +1,165 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>Tessari</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="bull.png">
-</head>
-<body class="bg-gray-100 font-sans">
-  <header class="bg-white p-4 shadow-md">
-    <div class="container mx-auto flex items-center justify-between">
-      <h1 class="text-3xl font-bold text-gray-900">Tessari</h1>
-      <nav>
-        <a href="#about" class="px-4 py-2 font-bold text-gray-800 hover:text-gray-600">About</a>
-        <a href="#contact" class="px-4 py-2 font-bold text-gray-800 hover:text-gray-600">Contact Us</a>
-      </nav>
-    </div>
-  </header>
-  <main class="container mx-auto py-8">
-    <section id="about" class="mb-8">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Beat your broker for fun and profit with the ultimate expert advisor</h2>
-      <p class="text-gray-700 mb-4">
-        Through years of experience in forex and countless hours behind a screen, we finally created an expert advisor that does not promise but get results done.
-        Feel free to browse and see with your own eyes the result of our work and be part of our glorious community
-      </p>
-      <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Download EA</a>
-    </section>
-   <section id="projects" class="mb-8">
-  <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Result</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    <div class="bg-white shadow-md rounded-lg p-3">
-      <img src="1.jpg" alt="Project 1" class="w-full rounded-lg shadow-md">
-      <h3 class="text-2xl font-bold text-gray-800 mt-4 mb-2">GBPUSD</h3>
-      <p class="text-gray-700 mb-4">See how our expert advisor performed GPBUSD trading in the past few years</p>
-      <a href="#" class="bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full">View</a>
-    </div>
-    <div class="bg-white shadow-md rounded-lg p-3">
-      <img src="2.png" alt="Project 2" class="w-full rounded-lg shadow-md">
-      <h3 class="text-2xl font-bold text-gray-800 mt-4 mb-2">EURUSD</h3>
-      <p class="text-gray-700 mb-4">See how our expert advisor performed EURUSD trading in the past few years</p>
-      <a href="#" class="bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full">View</a>
-    </div>
-    <div class="bg-white shadow-md rounded-lg p-3">
-      <img src="1.jpg" alt="Project 3" class="w-full rounded-lg shadow-md">
-      <h3 class="text-2xl font-bold text-gray-800 mt-4 mb-2">USDJPY</h3>
-      <p class="text-gray-700 mb-4">See how our expert advisor performed USDJPY trading in the past few years</p>
-      <a href="#" class="bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full">View</a>
-    </div>
-  </div>
-</section>
+    <head>
+        <title>Expert GPT</title>
+        <link rel=stylesheet href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+        <section id="banner">
+            <div class="banner-text">
+                <h1>Expert GPT</h1>
+                <p>It's not another EA, It's Expert GPT</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Find Out</a>
+                    <a href="#"><span></span>Read More</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#banner">HOME</a></li>
+                    <li><a href="#feature">FEATURES</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#footer">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="images/menu.png" id="menu"/>
+        </div>
 
-  </main>
-  <footer class="bg-gray-900 py-4 text-center text-white">
-    &copy; Tessari 2023
-  </footer>
-</body>
+        <!--Features-->
+        <section id='feature'>
+            <div class="title-text">
+                <p>FEATURES</p>
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Experienced Staff</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
 
-<style>
-  footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-</style>
+                        </div>
+                        <div class="feature-text"><p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam ullam esse voluptatibus animi, tempore non velit, corrupti, illo id magnam. Mollitia et facere provident, tenetur rem itaque officia distinctio?
+                        </p></div>
+                    </div>
+                    <h1>Free Channel</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-rss" aria-hidden="true"></i>
+                        </div>
+                        <div class="feature-text"><p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam ullam esse voluptatibus animi, tempore non velit, corrupti, illo id magnam. Mollitia et facere provident, tenetur rem itaque officia distinctio?
+                        </p></div>
+                    </div>
+                    <h1>Affordable Cost</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                        </div>
+                        <div class="feature-text"><p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam ullam esse voluptatibus animi, tempore non velit, corrupti, illo id magnam. Mollitia et facere provident, tenetur rem itaque officia distinctio?
+                        </p></div>
+                    </div>
+                </div>
+                <div class="features-img">
+                    <img src="images/3.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!--Services-->
+
+        <section id="service">
+            <div class="title-text">
+                <p>SERVICES</p>
+                <h1>We Provide Better</h1>
+            </div>
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="images/3.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="service-desc">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="images/3.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="service-desc"></div>
+                    <div class="service-desc">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="images/3.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="service-desc"></div>
+                    <div class="service-desc">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="single-service">
+                    <img src="images/3.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="service-desc"></div>
+                    <div class="service-desc">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="title-text">
+                <p>CONTACT US</p>
+                <h1>Join Our Telegram Channel Today</h1>
+            </div>
+            
+
+            <div class="social-links">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </div>
+        </section>
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.right = "-250px"
+            menuBtn.onclick = function() {
+                if(sideNav.style.right == "-250px"){
+                     sideNav.style.right = "0";
+                     menu.src = "images/close.png"
+                } else {
+                    sideNav.style.right = "-250px";
+                    menu.src = "images/menu.png"
+                }
+            }
+
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 500,
+                speedAsDuration: true
+            });
+
+        </script>
+    </body>
 </html>
